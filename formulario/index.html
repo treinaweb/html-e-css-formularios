@@ -11,10 +11,10 @@
 <body>
     <form>
         <label for="">Nome</label>
-        <input type="text" minlength="2" maxlength="5" size="30" disabled>
+        <input type="text" size="30" required pattern="[a-z]{2,5}" title="Por favor, insira letras apenas">
         <br>
         <label for="">Telefone</label>
-        <input type="tel" placeholder="(99)99999-9999" autofocus>
+        <input type="tel" placeholder="(99)99999-9999">
         <br>
         <br>
         <button type="submit">enviar</button>
