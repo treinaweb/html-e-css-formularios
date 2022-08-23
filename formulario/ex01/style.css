@@ -18,14 +18,25 @@ body {
     flex-direction: column;
 }
 
+.logo-tw {
+    margin-bottom: 25px;
+}
+
 .form-login {
     display: flex;
     flex-direction: column;
     gap: 20px;
     background-color: #fff;
     border-radius: 4px;
-    border: solid 1px #b6b6b6be;
+    border: solid 1px #b6b6b670;
     padding: 20px 30px;
+}
+
+.form-login h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
 }
 
 .form-field {
@@ -36,11 +47,15 @@ body {
 
 .form-field input {
     height: 35px;
-    width: 300px;
+    width: 350px;
     background-color: #f8fafc;
     border: solid 1px #b6b6b6be;
     border-radius: 4px;
     padding: 3px;
+}
+
+.form-field input:focus {
+    outline: none;
 }
 
 .password-field {
@@ -93,4 +108,14 @@ hr {
 .google-login:hover {
     border-color: black;
     transition: .6s;
+}
+
+.form-content p {
+    color: #626976;
+    text-align: center;
+}
+
+.form-content p a {
+    color: #206bc4;
+    text-decoration: none;
 }
