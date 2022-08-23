@@ -1,0 +1,11 @@
+.form-user {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-user input, .form-user textarea {
+    width: 100%;
+}
+
