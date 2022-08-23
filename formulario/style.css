@@ -32,3 +32,16 @@
     background-color: #38b05c;
     transition: .6s;
 }
+
+.name-mail {
+    display: flex;
+    align-items: center;
+    background-color: #bababa;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.name-mail img {
+    width: 30px;
+    height: 30px;
+}
