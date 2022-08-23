@@ -7,5 +7,28 @@
 
 .form-user input, .form-user textarea {
     width: 100%;
+    border: none;
+    background-color: #bababa;
+    border-radius: 4px;
+    padding: 5px;
 }
 
+.form-user input {
+    height: 30px;
+}
+
+.form-user input:focus, .form-user textarea:focus {
+    outline: none;
+}
+
+.form-user button {
+    height: 30px;
+    border-radius: 4px;
+    background-color: #3dd26a;
+    border: none;
+}
+
+.form-user button:hover {
+    background-color: #38b05c;
+    transition: .6s;
+}
