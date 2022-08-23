@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc;
+}
+
+.form-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 1px #b6b6b6be;
+    padding: 20px 30px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-field input {
+    height: 35px;
+    width: 300px;
+    background-color: #f8fafc;
+    border: solid 1px #b6b6b6be;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.password-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-field a {
+    color: #206bc4;
+    text-decoration: none;
+}
+
+.form-content button {
+    width: 100%;
+    height: 35px;
+    background-color: #2fb344;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-content button:hover {
+    background-color: #2aa13d;
+    transition: .6s;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+hr {
+    width: 100%;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: solid 1px #b6b6b6be;
+    border-radius: 4px;
+    color: black;
+    gap: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.google-login:hover {
+    border-color: black;
+    transition: .6s;
+}
