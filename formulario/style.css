@@ -41,7 +41,11 @@
     border-radius: 4px;
 }
 
-.name-mail img {
+/* .name-mail img {
     width: 30px;
     height: 30px;
+} */
+
+.form-user input[type=email] {
+    margin-left: 5px;
 }
